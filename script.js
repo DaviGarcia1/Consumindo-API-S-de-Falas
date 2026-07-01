@@ -25,11 +25,9 @@ const traduzirMsg = (textEnglish) => {
 
 const girarDado = () => {
     dadoImg.classList.add('girar')
-    console.log(dadoImg.classList)
     setTimeout(() => {
         window.location.reload()
         dadoImg.classList.remove('girar')
-        console.log(dadoImg.classList)
     }, 2000)
 }
 
